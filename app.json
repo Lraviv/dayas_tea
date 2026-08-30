@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Daya's Tea",
+    "slug": "dayas-tea",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-sqlite",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Daya's Tea uses the camera to photograph your tea bags."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Daya's Tea can use photos from your library as tea bag pictures."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/adaptive-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#F7F5F0",
+          "dark": {
+            "image": "./assets/adaptive-icon.png",
+            "backgroundColor": "#1C1C1E"
+          }
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Daya's Tea uses the camera to photograph your tea bags.",
+        "NSPhotoLibraryUsageDescription": "Daya's Tea can use photos from your library as tea bag pictures."
+      }
+    },
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.lihiraviv.dayastea"
+    },
+    "icon": "./assets/icon.png",
+    "extra": {
+      "eas": {
+        "projectId": "e634e2a1-af7b-4889-a481-0d6aa7a165b7"
+      }
+    }
+  }
+}
