@@ -11,6 +11,20 @@ filter, sort, and an on-device Excel export. UI is plain React Native
 components with custom `StyleSheet` styling — see "On gluestack-ui" below
 for why it isn't a dependency after all.
 
+## Screenshots
+
+| Library | Filters | Statistics |
+| --- | --- | --- |
+| ![Library](screenshots/library-home.png) | ![Filters](screenshots/library-filters.png) | ![Statistics](screenshots/statistics.png) |
+
+| Tea Details | Camera Capture | Manage Categories |
+| --- | --- | --- |
+| ![Tea Details](screenshots/tea-details-photo.png) | ![Camera](screenshots/camera-capture.png) | ![Manage Categories](screenshots/manage-categories.png) |
+
+| Settings | Category Picker |
+| --- | --- |
+| ![Settings](screenshots/settings.png) | ![Category Picker](screenshots/tea-details-category.png) |
+
 ## On gluestack-ui
 
 An earlier pass added gluestack-ui (`@gluestack-ui/themed`) as the UI
