@@ -31,7 +31,11 @@
             "backgroundColor": "#1C1C1E"
           }
         }
-      ]
+      ],
+      "expo-asset",
+      "expo-font",
+      "expo-image",
+      "expo-sharing"
     ],
     "ios": {
       "supportsTablet": false,
